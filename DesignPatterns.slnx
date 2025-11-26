@@ -7,4 +7,5 @@
     <File Path="README.md" />
   </Folder>
   <Project Path="ChainOfResponsibility/BasicExample/BasicExample.csproj" />
+  <Project Path="ChainOfResponsibility/SpamDetectionExample/SpamDetectionExample.csproj" />
 </Solution>

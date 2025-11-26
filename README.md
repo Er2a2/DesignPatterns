@@ -21,3 +21,11 @@ Folder: `ChainOfResponsibility/`
 
 Includes:
 - **BasicExample** — Minimal, beginner-friendly implementation  
+- **SpamDetectionExample** — Real-world email spam checking pipeline  
+
+This repo is meant for:
+
+- Interview preparation  
+- Reference material for real-world architecture  
+- Personal learning & clean coding practice  
+

@@ -18,3 +18,28 @@ A minimal and educational implementation of the Chain of Responsibility pattern.
 - Abstract `Handler`
 - Three concrete handlers (`ConcreteHandler1/2/3`)
 - Simple string-based request flow
+
+#  2. SpamDetectionExample
+A more **realistic and practical** example that applies the pattern to a spam detection workflow.
+
+This example demonstrates:
+- Keyword-based spam detection  
+- Blacklist checking  
+- Simple ML-like prediction  
+- Real-world `Email` request model  
+
+It shows how the Chain of Responsibility can be used in real applications such as:
+- Email filtering  
+- Validation pipelines  
+- Rule engines  
+- Middleware chains  
+
+---
+
+#  When to Use this Pattern?
+Use Chain of Responsibility when:
+- Multiple handlers may process a request.
+- The sender should not know which handler will process it.
+- You want to add/remove handlers easily without modifying existing code.
+
+---
