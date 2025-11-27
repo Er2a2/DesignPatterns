@@ -23,6 +23,18 @@ Includes:
 - **BasicExample** — Minimal, beginner-friendly implementation  
 - **SpamDetectionExample** — Real-world email spam checking pipeline  
 
+### 2️. **Strategy Pattern**
+Folder: `Strategy/`
+
+Includes:
+- **BasicExample** — Simple and clear demonstration of switching strategies at runtime  
+- *(More examples coming soon)*
+
+
+---
+##  Purpose of This Repository
+
+
 This repo is meant for:
 
 - Interview preparation  
