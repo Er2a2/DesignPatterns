@@ -28,10 +28,11 @@ Folder: `Strategy/`
 
 Includes:
 - **BasicExample** — Simple and clear demonstration of switching strategies at runtime  
-- *(More examples coming soon)*
-
+- **PaymentStrategyExample** — Real-world payment selection (Credit Card, PayPal, Bank Transfer)
 
 ---
+
+
 ##  Purpose of This Repository
 
 

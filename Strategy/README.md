@@ -20,13 +20,29 @@ Shows how to:
 - `ConcreteStrategyA/B/C`
 - `Context` class responsible for using selected strategy
 
-Use cases:
-- Payment method selection (Credit Card / PayPal / Crypto)
-- Sorting algorithms (QuickSort / MergeSort / BubbleSort)
-- Logging strategies (Console / File / Cloud)
-- Promotion or pricing rules in e-commerce
 
-More real-world examples will be added later.
+---
+
+### 2️. PaymentStrategyExample
+
+A more **real-world** example that applies the Strategy pattern to a payment workflow in a shopping cart.
+
+Demonstrates:
+
+- `IPaymentStrategy` interface as the common contract  
+- Multiple payment methods:
+  - `CreditCardStrategy`
+  - `PayPalStrategy`
+  - `BankTransferStrategy`
+- `ShoppingCart` as the context that:
+  - Accepts a payment strategy via `SetStrategy`
+  - Calls `Checkout(amount)` which delegates to `_strategy.Pay(amount)`
+
+Use cases in real applications:
+
+- Choosing payment methods at checkout  
+- Switching pricing or discount strategies  
+- Selecting shipping cost calculation algorithms  
 
 ---
 

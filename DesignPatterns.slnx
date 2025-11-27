@@ -9,6 +9,7 @@
   <Folder Name="/Strategy/">
     <File Path="Strategy/README.md" />
     <Project Path="Strategy/BasicExample/BasicExample.csproj" />
+    <Project Path="Strategy/PaymentStrategyExample/PaymentStrategyExample.csproj" />
   </Folder>
   <Project Path="ChainOfResponsibility/BasicExample/BasicExample.csproj" />
   <Project Path="ChainOfResponsibility/SpamDetectionExample/SpamDetectionExample.csproj" />
