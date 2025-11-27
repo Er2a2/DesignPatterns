@@ -1,8 +1,9 @@
 <Solution>
   <Folder Name="/ChainOfResponsibility/">
     <File Path="ChainOfResponsibility/README.md" />
+    <Project Path="ChainOfResponsibility/BasicExample/BasicExample.csproj" />
+    <Project Path="ChainOfResponsibility/SpamDetectionExample/SpamDetectionExample.csproj" />
   </Folder>
-  <Folder Name="/ChainOfResponsibility/BasicExample/" />
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
   </Folder>
@@ -11,6 +12,4 @@
     <Project Path="Strategy/BasicExample/BasicExample.csproj" />
     <Project Path="Strategy/PaymentStrategyExample/PaymentStrategyExample.csproj" />
   </Folder>
-  <Project Path="ChainOfResponsibility/BasicExample/BasicExample.csproj" />
-  <Project Path="ChainOfResponsibility/SpamDetectionExample/SpamDetectionExample.csproj" />
 </Solution>
