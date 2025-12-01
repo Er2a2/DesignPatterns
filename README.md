@@ -23,12 +23,24 @@ Includes:
 - **BasicExample** — Minimal, beginner-friendly implementation  
 - **SpamDetectionExample** — Real-world email spam checking pipeline  
 
+---
+
 ### 2️. **Strategy Pattern**
 Folder: `Strategy/`
 
 Includes:
 - **BasicExample** — Simple and clear demonstration of switching strategies at runtime  
 - **PaymentStrategyExample** — Real-world payment selection (Credit Card, PayPal, Bank Transfer)
+
+---
+
+### 3️. Factory Method
+Folder: `FactoryMethod/`
+
+Includes:
+- **BasicExample** — Classic Creator/Product separation using `Creator`, `ConcreteCreatorA/B`, and `ConcreteProductA/B`  
+
+(A more real-world example can be added later)
 
 ---
 
@@ -41,4 +53,6 @@ This repo is meant for:
 - Interview preparation  
 - Reference material for real-world architecture  
 - Personal learning & clean coding practice  
+- Understanding SOLID principles (especially **OCP**, **DIP**, **SRP**)  
 
+More patterns will be added over time.
