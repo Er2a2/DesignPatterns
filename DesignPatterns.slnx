@@ -7,6 +7,7 @@
   <Folder Name="/FactoryMethod/">
     <File Path="FactoryMethod/README.md" />
     <Project Path="FactoryMethod/BasicExample/BasicExample.csproj" />
+    <Project Path="FactoryMethod/GameLevelExample/GameLevelExample.csproj" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path="README.md" />

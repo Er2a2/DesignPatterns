@@ -39,8 +39,8 @@ Folder: `FactoryMethod/`
 
 Includes:
 - **BasicExample** — Classic Creator/Product separation using `Creator`, `ConcreteCreatorA/B`, and `ConcreteProductA/B`  
+- **GameLevelExample** — Real-world style enemy creation based on level design  
 
-(A more real-world example can be added later)
 
 ---
 
@@ -53,6 +53,8 @@ This repo is meant for:
 - Interview preparation  
 - Reference material for real-world architecture  
 - Personal learning & clean coding practice  
-- Understanding SOLID principles (especially **OCP**, **DIP**, **SRP**)  
+- Understanding **Object-Oriented Design** and **SOLID principles**   
+(especially **OCP**, **DIP**, **SRP**)  
+
 
 More patterns will be added over time.

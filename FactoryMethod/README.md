@@ -41,6 +41,55 @@ creatorB.Run();
 
 ---
 
+### 2. GameLevelExample
+
+A more **real-world style** example that applies the Factory Method pattern to a game level system.
+
+It demonstrates:
+
+- `IEnemy` as the product interface  
+- Concrete enemies:
+  - `Goblin`
+  - `Ghost`
+- Abstract `Level` class as the **Creator**:
+  - Declares the factory method: `CreateEnemy()`
+  - Implements `EncounterEnemy()` which:
+    - Calls `CreateEnemy()`
+    - Uses the returned `IEnemy` by calling `Scream()` and `Attack()`
+- Concrete levels:
+  - `CaveLevel` → creates `Goblin`
+  - `HauntedHouseLevel` → creates `Ghost`
+- A simple `LevelFactory` that decides which `Level` to create based on a level number
+
+Client example:
+
+```csharp
+Level level1 = LevelFactory.CreateLevel(levelNumber: 1);
+level1.EncounterEnemy();
+
+Level level2 = new HauntedHouseLevel();
+level2.EncounterEnemy();
+```
+
+
+---
+
+
+### 🧩 Simple Factory vs Factory Method in this example
+
+This example demonstrates **two** ways of deciding which enemy to create:
+
+| Code | Who decides enemy type? | Pattern |
+|------|-----------------------|--------|
+| `LevelFactory.CreateLevel(1)` | External factory | Simple Factory |
+| `new HauntedHouseLevel()` | The subclass (`CreateEnemy()`) | Factory Method |
+
+The key idea:
+
+> Factory Method shifts the decision of *what to create* into subclasses,  
+> improving flexibility and following **Open/Closed Principle (OCP)**.
+
+
 ##  When to Use FactoryMethod?
 Use this pattern when:
 
