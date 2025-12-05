@@ -4,6 +4,10 @@
     <Project Path="ChainOfResponsibility/BasicExample/BasicExample.csproj" />
     <Project Path="ChainOfResponsibility/SpamDetectionExample/SpamDetectionExample.csproj" />
   </Folder>
+  <Folder Name="/Decorator/">
+    <File Path="Decorator/README.md" />
+    <Project Path="Decorator/BasicExample/BasicExample.csproj" />
+  </Folder>
   <Folder Name="/FactoryMethod/">
     <File Path="FactoryMethod/README.md" />
     <Project Path="FactoryMethod/BasicExample/BasicExample.csproj" />

@@ -45,6 +45,14 @@ Includes:
 ---
 
 
+### 4. Decorator
+Folder: `Decorator/`
+
+Includes:
+- **BasicExample** — Simple demonstration of wrapping behavior using nested decorators  
+- *(Real-world example coming soon: e.g. Logging / Caching decorators)*
+
+
 ##  Purpose of This Repository
 
 
