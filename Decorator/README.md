@@ -38,6 +38,41 @@ component.Operation();
 
 ---
 
+### 2. TeslaExample
+
+A real-world application of the Decorator pattern for **configuring a Tesla Model 3**.
+This example demonstrates how different optional features can be added to a base car dynamically using decorators.
+
+### Structure
+
+| Role | Class |
+|------|------|
+| Component Interface | `ITeslaModel3` |
+| Base Component | `BasicTeslaModel3` |
+| Abstract Decorator | `TeslaDecorator` |
+| Concrete Decorators | `RedPaintTeslaDecorator`, `BluePaintTeslaDecorator`, `LongRangeTeslaDecorator` |
+
+Each decorator adds new behavior such as:
+
+- Increasing price
+- Updating description
+- Improving driving range
+
+### Example usage:
+
+```csharp
+ITeslaModel3 car = new LongRangeTeslaDecorator(
+    new RedPaintTeslaDecorator(
+        new BasicTeslaModel3()));
+
+Console.WriteLine($"Description: {car.GetDescription()}");
+Console.WriteLine($"Price: {car.GetPrice()}");
+Console.WriteLine($"Range: {car.GetRange()}");
+```
+
+---
+
+
 ##  When to Use Decorator?
 Use this pattern when:
 

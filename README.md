@@ -50,8 +50,7 @@ Folder: `Decorator/`
 
 Includes:
 - **BasicExample** — Simple demonstration of wrapping behavior using nested decorators  
-- *(Real-world example coming soon: e.g. Logging / Caching decorators)*
-
+- **TeslaExample** — Real-world style car configuration using decorators (price, range, options)
 
 ##  Purpose of This Repository
 
